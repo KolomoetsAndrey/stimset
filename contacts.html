@@ -67,7 +67,7 @@
                             </ul>
                         </li>
                     </ul>
-                    <button class="order">Order</button>
+                    <button class="order" data-toggle="modal" data-target="#order">Order</button>
                     <div class="hamburger">
                         <a href="#" class="menu_link" onclick="openNav()">
                             <img src="images/hamburger.png" alt="" class="hamburger_img">
@@ -279,6 +279,123 @@
             </div>
         </div>
     </footer>
+
+    <!-- Order Modal -->
+    <div class="modal fade" id="order" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="text-center">Order TMS</h3>
+                <form>
+                    <div class="subcolumn">
+                        <label for="name">Your name*</label>
+                        <input type="text" name="name" class="name">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="surname">Your surname*</label>
+                        <input type="text" name="surname" class="surname">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="email">Your email*</label>
+                        <input type="text" name="email" class="email">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="phone">Your phone*</label>
+                        <input type="text" name="phone" class="phone">
+                    </div>
+                    <div class="fullcolumn">
+                        <label for="mess">Your Message</label>
+                        <textarea name="mess" class="mess" cols="30" rows="3"></textarea>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
+                    </div>
+                    <input class='submit' type="button" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Request Modal -->
+    <div class="modal fade" id="request" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="text-center">Request a free TMS guide</h3>
+                <form>
+                    <div class="subcolumn">
+                        <label for="name">Your name*</label>
+                        <input type="text" name="name" class="name">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="surname">Your surname*</label>
+                        <input type="text" name="surname" class="surname">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="email">Your email*</label>
+                        <input type="text" name="email" class="email">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="phone">Your phone*</label>
+                        <input type="text" name="phone" class="phone">
+                    </div>
+                    <div class="fullcolumn">
+                        <label for="mess">Your Message</label>
+                        <textarea name="mess" class="mess" cols="30" rows="3"></textarea>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
+                    </div>
+                    <input class='submit' type="button" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume Modal -->
+    <div class="modal fade" id="resume" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="text-center">To send a resume</h3>
+                <form>
+                    <div class="subcolumn">
+                        <label for="name">Your name*</label>
+                        <input type="text" name="name" class="name">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="surname">Your surname*</label>
+                        <input type="text" name="surname" class="surname">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="email">Your email*</label>
+                        <input type="text" name="email" class="email">
+                    </div>
+                    <div class="subcolumn">
+                        <label for="phone">Your phone*</label>
+                        <input type="text" name="phone" class="phone">
+                    </div>
+                    <div class="fullcolumn">
+                        <label for="file">Your resume*</label>
+                        <input type="file" class="file" id="file" required>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
+                    </div>
+                    <input class='submit' type="button" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Scripts -->

@@ -738,3 +738,75 @@ button {
 .footer .bottom_footer a:hover {
   text-decoration: none;
 }
+.modal .modal-content {
+  padding: 25px;
+}
+.modal .modal-dialog {
+  max-width: 800px;
+}
+.modal .close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.modal h3 {
+  font-size: 37px;
+  color: #373077;
+}
+.modal form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.modal form .subcolumn {
+  width: 47%;
+}
+.modal form .fullcolumn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.modal form label {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2B2A29;
+  margin-bottom: 5px;
+}
+.modal form .name,
+.modal form .email,
+.modal form .company,
+.modal form .surname,
+.modal form .phone {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #AE4A843b;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  background: #AE4A843b;
+}
+.modal form textarea {
+  border: 1px solid #AE4A843b;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background: #AE4A843b;
+}
+.modal form .custom-checkbox {
+  margin-bottom: 30px;
+  color: #CCCCCC;
+}
+.modal form .custom-control-label:hover {
+  cursor: pointer;
+}
+.modal form .submit {
+  padding: 10px 20px;
+  border: 1px solid #AE4A84;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background: #ffffff;
+  color: #AE4A84;
+}
+.modal form .policy {
+  color: #373077;
+  text-decoration: underline;
+}
