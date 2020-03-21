@@ -310,6 +310,15 @@ button {
 .wrapper .subtitle {
   font-size: 23px;
 }
+.wrapper .about_img_block {
+  width: 100%;
+  height: auto;
+  margin: 75px 0;
+}
+.wrapper .about_text {
+  font-size: 17px;
+  color: #2B2A29;
+}
 .wrapper .team_block {
   margin-top: 40px;
 }
@@ -343,6 +352,7 @@ button {
 .wrapper .about_block .description {
   font-size: 17px;
   color: #2B2A29;
+  margin-bottom: 40px;
 }
 .wrapper .about_block .about_btn {
   margin-top: auto;
