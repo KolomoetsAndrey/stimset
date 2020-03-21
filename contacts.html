@@ -23,7 +23,18 @@
                     <p class="slogan">Positioning made accurate</p>
                 </div>
                 <div class="menu_block">
-                    <ul class="menu">
+                    <ul class="menu" id="mySidepanel">
+                        <div class="header_menu">
+                            <a href="/" class="header_menu_logo">
+                                <img src="images/menu_logo.png" alt="">
+                            </a>
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                <svg class="bi bi-x" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                                    <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </a>
+                        </div>
                         <li class="dropdown">
                             <ul class="dropdown_link">Navigation
                                 <li>
@@ -59,10 +70,10 @@
                         <li class="dropdown">
                             <ul class="dropdown_link">About
                                 <li>
-                                    <a class="dropdown_item" href="#">Our People</a>
-                                    <a class="dropdown_item" href="#">Careers</a>
-                                    <a class="dropdown_item" href="#">Our Partners</a>
-                                    <a class="dropdown_item" href="#">Contacts</a>
+                                    <a class="dropdown_item" href="people.html">Our People</a>
+                                    <a class="dropdown_item" href="careers.html">Careers</a>
+                                    <a class="dropdown_item" href="partners.html">Our Partners</a>
+                                    <a class="dropdown_item" href="contacts.html">Contacts</a>
                                 </li>
                             </ul>
                         </li>
@@ -235,10 +246,10 @@
                     <div class="col-lg-2 col-12">
                         <ul class="menu">About
                             <li>
-                                <a class="menu_link" href="#">Our People</a>
-                                <a class="menu_link" href="#">Careers</a>
-                                <a class="menu_link" href="#">Our Partners</a>
-                                <a class="menu_link" href="#">Contacts</a>
+                                <a class="menu_link" href="people.html">Our People</a>
+                                <a class="menu_link" href="careers.html">Careers</a>
+                                <a class="menu_link" href="partners.html">Our Partners</a>
+                                <a class="menu_link" href="contacts.html">Contacts</a>
                             </li>
                         </ul>
                     </div>
@@ -267,12 +278,12 @@
         <div class="bottom_footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-12">
+                    <div class="col-6">
                         <p class="copyright">
                             STIMSET © Copyright 2020 <a href="#" class="developer">SFdevelop</a>
                         </p>
                     </div>
-                    <div class="col-lg-6 col-12">
+                    <div class="col-6">
                         <a href="#" class="policy">Privacy Policy</a>
                     </div>
                 </div>
@@ -285,7 +296,10 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <svg class="bi bi-x" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                        <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+                    </svg>
                 </button>
                 <h3 class="text-center">Order TMS</h3>
                 <form>
@@ -310,10 +324,10 @@
                         <textarea name="mess" class="mess" cols="30" rows="3"></textarea>
                     </div>
                     <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                        <label class="custom-control-label" for="customCheck1">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
+                        <input type="checkbox" class="custom-control-input" id="customCheck2" checked>
+                        <label class="custom-control-label" for="customCheck2">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
                     </div>
-                    <input class='submit' type="button" value="Submit">
+                    <input class='submit' id="submit2" type="button" value="Submit">
                 </form>
             </div>
         </div>
@@ -324,7 +338,10 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <svg class="bi bi-x" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                        <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+                    </svg>
                 </button>
                 <h3 class="text-center">Request a free TMS guide</h3>
                 <form>
@@ -349,10 +366,10 @@
                         <textarea name="mess" class="mess" cols="30" rows="3"></textarea>
                     </div>
                     <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                        <label class="custom-control-label" for="customCheck1">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
+                        <input type="checkbox" class="custom-control-input" id="customCheck3" checked>
+                        <label class="custom-control-label" for="customCheck3">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
                     </div>
-                    <input class='submit' type="button" value="Submit">
+                    <input class='submit' id="submit3" type="button" value="Submit">
                 </form>
             </div>
         </div>
@@ -363,7 +380,10 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <svg class="bi bi-x" width="30px" height="30px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                        <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+                    </svg>
                 </button>
                 <h3 class="text-center">To send a resume</h3>
                 <form>
@@ -388,10 +408,10 @@
                         <input type="file" class="file" id="file" required>
                     </div>
                     <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                        <label class="custom-control-label" for="customCheck1">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
+                        <input type="checkbox" class="custom-control-input" id="customCheck4" checked>
+                        <label class="custom-control-label" for="customCheck4">I consent to my data being used to contact me, and stored in line with the guidelines set out in the <a href="#" class="policy">Privacy Policy</a>.</label>
                     </div>
-                    <input class='submit' type="button" value="Submit">
+                    <input class='submit' id="submit4" type="button" value="Submit">
                 </form>
             </div>
         </div>
