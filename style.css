@@ -177,6 +177,10 @@ button {
   filter: grayscale(1);
   cursor: pointer;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
 .navbar {
   background-position: top right;
   background-repeat: no-repeat;
@@ -328,6 +332,135 @@ button {
 .wrapper .team_block .people_block .doctor .description {
   font-size: 17px;
   color: #2B2A29;
+}
+.wrapper .about_block {
+  margin-top: 75px;
+}
+.wrapper .about_block h3 {
+  font-size: 30px;
+  color: #2B2A29;
+}
+.wrapper .about_block .description {
+  font-size: 17px;
+  color: #2B2A29;
+}
+.wrapper .about_block .about_btn {
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+.wrapper .about_block .about_btn .apply {
+  color: #AE4A84;
+  background: #ffffff;
+  border: 1px solid #AE4A84;
+  padding: 10px 20px;
+}
+.wrapper .about_block .about_btn .apply:hover {
+  text-decoration: none;
+}
+.wrapper .about_block .about_img {
+  width: 100%;
+  height: auto;
+}
+.wrapper .why {
+  margin-top: 100px;
+}
+.wrapper .why .why_block .why_img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.wrapper .why .why_block .description {
+  font-size: 23px;
+  color: #2B2A29;
+}
+.wrapper .partner_block {
+  margin-top: 70px;
+}
+.wrapper .partner_block h3 {
+  font-size: 30px;
+  color: #2B2A29;
+}
+.wrapper .partner_block .description {
+  font-size: 17px;
+  color: #2B2A29;
+  margin-bottom: 20px;
+}
+.wrapper .logos {
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .logos .main_logo {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 55px;
+}
+.wrapper .contact_block {
+  margin-top: 75px;
+}
+.wrapper .contact_block .adres {
+  list-style: none;
+}
+.wrapper .contact_block .adres li {
+  margin-bottom: 25px;
+  position: relative;
+}
+.wrapper .contact_block .adres .phone::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -40px;
+  top: 2px;
+  background: url(images/phone.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper .contact_block .adres .location::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 28px;
+  left: -40px;
+  top: 2px;
+  background: url(images/location.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper .contact_block .adres .mail::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  left: -40px;
+  top: 5px;
+  background: url(images/mail.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper .contact_block .adres img {
+  width: 20px;
+  height: auto;
+  margin-right: 15px;
+}
+.video {
+  position: relative;
+  margin-top: 80px;
+}
+.video .video_img {
+  width: 100%;
+  height: auto;
+}
+.video .video_btn {
+  position: absolute;
+  top: 50%;
+  margin-top: -90px;
+  left: 50%;
+  margin-left: -90px;
 }
 .main_articles {
   color: #2B2A29;
