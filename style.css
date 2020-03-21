@@ -405,6 +405,7 @@ button {
 .wrapper .contact_block .adres li {
   margin-bottom: 25px;
   position: relative;
+  width: 80%;
 }
 .wrapper .contact_block .adres .phone::before {
   content: "";
@@ -446,6 +447,40 @@ button {
   width: 20px;
   height: auto;
   margin-right: 15px;
+}
+.wrapper .contact_block .location_block {
+  display: flex;
+}
+.wrapper .contact_block .location_img {
+  width: 100%;
+  height: auto;
+  margin: 0 10px;
+}
+.wrapper .follow_block {
+  margin-top: 40px;
+}
+.wrapper .follow_block h3 {
+  font-size: 30px;
+  color: #2B2A29;
+}
+.wrapper .follow_block ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.wrapper .follow_block ul li {
+  margin-right: 35px;
+}
+.wrapper .follow_block ul .social_link {
+  width: 30px;
+  height: 30px;
+}
+.wrapper .follow_block ul img {
+  width: 100%;
+  height: auto;
 }
 .video {
   position: relative;
