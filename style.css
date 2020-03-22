@@ -375,7 +375,12 @@ button {
   height: auto;
 }
 .wrapper .why {
-  margin-top: 100px;
+  margin-top: 80px;
+}
+.wrapper .why h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .wrapper .why .why_block .why_img {
   width: 100%;
@@ -899,11 +904,22 @@ button {
     top: 0;
   }
   .column {
-    order: 1;
     margin-top: 40px;
+  }
+  .foto_block {
+    order: 1;
+  }
+  .wrapper .about_block {
+    margin-top: 0;
   }
   .wrapper .about_block .about_btn {
     margin-bottom: 50px;
+  }
+  .wrapper .about_block h3 {
+    font-size: 23px;
+  }
+  .wrapper .about_block .description {
+    font-size: 14px;
   }
   .wrapper .why .why_block {
     margin-bottom: 40px;
@@ -966,5 +982,145 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 18px;
+  }
+}
+@media (max-width: 640px) {
+  .navbar .logo_block img {
+    width: 58px;
+  }
+  .navbar .slogan {
+    font-size: 9px;
+  }
+  .navbar .order {
+    font-size: 14px;
+  }
+  .main_block {
+    background-size: 150% 50%;
+  }
+  .main_block h1 {
+    font-size: 35px;
+    margin-top: 200px;
+  }
+  .main_block .subtitle {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .main_block .main_btn {
+    margin-top: 40px;
+  }
+  .main_block .main_btn .free {
+    font-size: 15px;
+  }
+  .main_block .head {
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .main_articles h2 {
+    font-size: 23px;
+  }
+  .main_articles .subtitle {
+    font-size: 16px;
+  }
+  .main_articles .article_block h3 {
+    font-size: 20px;
+  }
+  .main_articles .article_block .article_text {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .wrapper h2 {
+    font-size: 23px;
+  }
+  .wrapper .subtitle {
+    font-size: 16px;
+  }
+  .wrapper .about_img_block {
+    margin: 15px 0;
+  }
+  .wrapper .about_text {
+    font-size: 14px;
+  }
+  .wrapper .why h2 {
+    font-size: 20px;
+  }
+  .wrapper .why .why_block .description {
+    font-size: 20px;
+  }
+  .wrapper .follow_block h3 {
+    font-size: 23px;
+  }
+  .wrapper .partner_block h3 {
+    font-size: 20px;
+  }
+  .wrapper .partner_block .description {
+    font-size: 14px;
+  }
+  .video .video_btn {
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+  .video .video_btn img {
+    width: 100px;
+    height: 100px;
+  }
+  .featured h2 {
+    font-size: 23px;
+  }
+  .info h3 {
+    font-size: 23px;
+  }
+  .info .subtitle {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .main_form h2 {
+    font-size: 23px;
+  }
+  .main_form .subtitle {
+    font-size: 16px;
+  }
+  .footer .bottom_footer .copyright {
+    font-size: 9px;
+  }
+  .footer .bottom_footer .policy {
+    font-size: 9px;
+  }
+}
+@media (max-width: 480px) {
+  .main_block h1 {
+    margin-top: 150px;
+  }
+  .main_block .head {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .main_block {
+    background: url(images/main-bg-mob.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .main_block h1 {
+    margin-top: 280px;
+  }
+  .main_block .head {
+    margin-top: 140px;
+  }
+}
+@media (max-width: 380px) {
+  .main_block h1 {
+    margin-top: 210px;
+  }
+  .main_block .head {
+    margin-left: 0;
+  }
+}
+@media (max-width: 320px) {
+  .main_block {
+    background-size: 100% 70%;
+  }
+  .main_block h1 {
+    margin-top: 160px;
   }
 }

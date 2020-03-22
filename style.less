@@ -496,7 +496,13 @@ button {
     }
 
     .why {
-        margin-top: 100px;
+        margin-top: 80px;
+
+        h2 {
+            font-size: 30px;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
 
         .why_block {
             .why_img {
@@ -1137,14 +1143,28 @@ button {
     }
 
     .column {
-        order: 1;
+        // order: 1;
         margin-top: 40px;
+    }
+
+    .foto_block {
+        order: 1;
     }
 
     .wrapper {
         .about_block {
+            margin-top: 0;
+
             .about_btn {
                 margin-bottom: 50px;
+            }
+
+            h3 {
+                font-size: 23px;
+            }
+
+            .description {
+                font-size: 14px;
             }
         }
 
@@ -1239,6 +1259,220 @@ button {
 
                 margin-right: 18px;
             }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        .logo_block {
+            img {
+                width: 58px;
+            }
+        }
+
+        .slogan {
+            font-size: 9px;
+        }
+
+        .order {
+            font-size: 14px;
+        }
+    }
+
+    .main_block {
+        background-size: 150% 50%;
+
+        h1 {
+            font-size: 35px;
+            margin-top: 200px;
+        }
+
+        .subtitle {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .main_btn {
+            margin-top: 40px;
+
+            .free {
+                font-size: 15px;
+            }
+        }
+
+        .head {
+            margin-top: 25px;
+            margin-left: 40px;
+        }
+    }
+
+    .main_articles {
+        h2 {
+            font-size: 23px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+        }
+
+        .article_block {
+            h3 {
+                font-size: 20px;
+            }
+
+            .article_text {
+                font-size: 14px;
+                margin-top: 0;
+            }
+        }
+    }
+
+    .wrapper {
+        h2 {
+            font-size: 23px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+        }
+
+        .about_img_block {
+            margin: 15px 0;
+        }
+
+        .about_text {
+            font-size: 14px;
+        }
+
+        .why {
+            h2 {
+                font-size: 20px;
+            }
+
+            .why_block {
+                .description {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .follow_block {
+            h3 {
+                font-size: 23px;
+            }
+        }
+
+        .partner_block {
+            h3 {
+                font-size: 20px;
+            }
+
+            .description {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .video {
+        .video_btn {
+            margin-top: -50px;
+            margin-left: -50px;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .featured {
+        h2 {
+            font-size: 23px;
+        }
+    }
+
+    .info {
+        h3 {
+            font-size: 23px;
+        }
+
+        .subtitle {
+            margin-top: 25px;
+            margin-bottom: 0;
+            font-size: 16px;
+        }
+    }
+
+    .main_form {
+        h2 {
+            font-size: 23px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+        }
+    }
+
+    .footer {
+        .bottom_footer {
+            .copyright {
+                font-size: 9px;
+            }
+
+            .policy {
+                font-size: 9px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .main_block {
+        h1 {
+            margin-top: 150px;
+        }
+
+        .head {
+            margin-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .main_block {
+        background: url(images/main-bg-mob.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        h1 {
+            margin-top: 280px;
+        }
+
+        .head {
+            margin-top: 140px;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .main_block {
+        h1 {
+            margin-top: 210px;
+        }
+
+        .head {
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .main_block {
+        background-size: 100% 70%;
+
+        h1 {
+            margin-top: 160px;
         }
     }
 }
