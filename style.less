@@ -546,6 +546,11 @@ button {
         }
     }
 
+    .logos_slider {
+        display: none;
+        visibility: hidden;
+    }
+
     .contact_block {
         margin-top: 75px;
 
@@ -657,6 +662,10 @@ button {
         height: auto;
     }
 
+    .video_img_mob {
+        display: none;
+    }
+
     .video_btn {
         position: absolute;
         top: 50%;
@@ -726,6 +735,11 @@ button {
         margin-top: 20px;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .logos_slider {
+        display: none;
+        visibility: hidden;
     }
 
     .main_logo {
@@ -1447,6 +1461,67 @@ button {
             margin-left: 10px;
         }
     }
+
+    .featured {
+        .logos {
+            display: none;
+            visibility: hidden;
+        }
+
+        .logos_slider {
+            display: block;
+            visibility: visible;
+
+            .carousel-item {
+                text-align: center;
+                padding: 15px 0;
+            }
+        }
+    }
+
+    .info {
+        margin-top: 40px;
+    }
+
+    .video {
+        .video_img {
+            display: none;
+        }
+
+        .video_img_mob {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .wrapper {
+        .partner_block {
+            margin-top: 40px;
+        }
+
+        .logos {
+            display: none;
+            visibility: hidden;
+        }
+
+        .logos_slider {
+            display: block;
+            visibility: visible;
+
+            .carousel-item {
+                text-align: center;
+                padding: 15px 0;
+            }
+
+            .main_logo {
+                width: auto;
+                max-width: 100%;
+                height: auto;
+                max-height: 55px;
+            }
+        }
+    }
 }
 
 @media (max-width: 450px) {
@@ -1484,5 +1559,9 @@ button {
         h1 {
             margin-top: 160px;
         }
+    }
+
+    .featured {
+        margin-top: 40px;
     }
 }
