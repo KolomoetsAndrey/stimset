@@ -1088,6 +1088,12 @@ button {
   }
 }
 @media (max-width: 480px) {
+  .navbar .logo_block {
+    margin-left: 0;
+  }
+  .navbar .row {
+    width: 110%;
+  }
   .main_block h1 {
     margin-top: 150px;
   }
